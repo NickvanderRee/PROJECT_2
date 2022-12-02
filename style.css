@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#121125;
+}
+ul{
+    display: absolute;
+    background-color: #1B1B38;
+    color: #665DD2;
+    list-style-type: none;
+    height: 15rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    top: 0%;
+}
+a{
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+top: 0%;
+}
+.games{
+    position: absolute;
+    left: 14rem ;
+}
+.portfolio{
+    position: absolute;
+    left: 25rem;
+}
+.h1{
+    display: flex;
+    background-color: #1B1B38;
+    margin-top: 20cm;
+    height: 5cm;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.card-blue{
+    display: flex;
+    height: 15cm;
+    width: 15cm;
+    margin-left:1cm ;
+    border: blue solid 10px;
+    background-color: #1B1B38;
+    margin-top: 3cm;
+}
+.card-purple{
+    display: flex;
+    height: 15cm;
+    width: 15cm;
+    border: green solid 10px;
+    background-color: #1B1B38;
+    border-color: #665DD2;
+    margin-top: 3cm;
+}
+.card-green{
+    display: flex;
+    height: 15cm;
+    width: 15cm;
+    border: green solid 10px;
+    background-color: #1B1B38;
+    margin-top: 3cm;
+}
+.card-red{
+    display: flex;
+    height: 15cm;
+    width: 15cm;
+    margin-right: 1cm;
+    border: #FF0000 solid 10px;
+    background-color: #1B1B38;
+    margin-top: 3cm;
+}
