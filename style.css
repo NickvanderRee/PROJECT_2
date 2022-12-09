@@ -6,16 +6,23 @@
 body{
     background-color:#121125;
 }
+p{
+    color: #665DD2;
+    font-size: 1.5rem;
+}
+
+
 ul{
     display: flex;
     background-color: #1B1B38;
     color: #665DD2;
     list-style-type: none;
-    height: 7rem;
+    height: 8rem;
+    top: 5%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 45px;
     line-height: 54px;
     margin: 0%;
     text-decoration: none;
@@ -26,8 +33,9 @@ position: relative;
 justify-content: space-between ;
 flex-direction: row;
 color: rgba(102, 93, 210, 1);;
-top: 0%;
+top: 15%;
 text-decoration: none;
+
 }
 a::after{
     content: "";
@@ -123,3 +131,32 @@ a:hover::after{
     background-color: #1B1B38;
     margin-top: 3cm;
 }
+
+h1{
+    position: relative;
+    color: #665DD2;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    margin:2.5rem ;
+    margin-left: 4rem;
+}
+.alitxt{
+    position: absolute;
+    /* border: red solid 1px; */
+    height: 15rem;
+    width: 100%;
+    padding: 2rem;
+
+}
+.proj{
+position: absolute;
+top: 32rem;
+}
+.proj1{
+    position: relative;
+    border: #00FF66 1px solid;
+    
+}
+
