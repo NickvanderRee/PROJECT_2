@@ -323,7 +323,7 @@ top: 32rem;
   
 
 }
-.mw2{
+.imggame{
   position: absolute;
   width: 40rem;
   height: 25rem;
@@ -331,9 +331,17 @@ top: 32rem;
   top:13rem ;
   border: #00FF66 solid 10px;
 }
-.mw2txt{
+.gametxt{
   position: absolute;
   width: 40rem;
   top: 20rem;
   left: 55%;
+}
+.imggame2{
+  position: absolute;
+  width: 40rem;
+  height: 25rem;
+  left: 7rem;
+  top:13rem ;
+  border: #007bff solid 10px;
 }
