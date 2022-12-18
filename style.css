@@ -311,3 +311,15 @@ top: 32rem;
     position: relative;
     margin-left: 35rem;
 }
+.button123::after{
+  content: "";
+  height: 0px;
+  width: 0%;
+  position: absolute;
+  top: 50px;
+  /* background-color: #00FF66; */
+  transform: scale(0);
+  transition: 0.7s ;
+  
+
+}
