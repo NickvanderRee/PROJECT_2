@@ -57,6 +57,7 @@ a:hover::after{
 }
 
 .home{
+ 
     display: flex;
     justify-content: space-between;
     margin-left: 1cm;
